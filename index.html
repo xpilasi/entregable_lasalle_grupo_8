@@ -210,43 +210,34 @@
 
     </article>
     
-        
-    
-
-    
 </section>
-<section class="email_us">
-    <h2>Email Us</h2>
- 
-    <article class="article_email_us">
-        <h3></h3>
 
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" id="field"><br>
-
-            <label for="email">Email</label>
-            <input type="email" id="field"><br>
-
-            <label for="phone">Phone</label>
-            <input type="text" id="field"><br>
-
-            <label for="company_name">Company Name</label>
-            <input type="text" id="field"><br>
-
-            <label for="message">Message</label>
-            <textarea type="text"></textarea>
-    
-            <label for="submit"value="Send"></label>
-            <br>
-            <input type="submit" value="Send">
-    
-            
-    
-        </form>
-    </article>
-
-    
+<article id="form">
+    <form class="contact-form" 
+    method="post">
+    <h2>Email Us  Mary </h2>
+        <label for="name">Name*:</label>
+        <input type="text" name="name" id="name" required>
+        
+        <label for="email">Email*:</label>
+        <input type="text" name="email" id="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="text" name="phone" id="phone" required>
+        
+        <label for="company-name">Company Name:</label>
+        <input type="text" name="company-name" id="company-name" required>
+        
+        <label for="subject">Subject*:</label>
+        <input type="text" name="subject" id="subject" required>
+        
+        <label for="message">Message*:
+            <textarea name="message" id="message"></textarea></label>
+        
+        <button type="submit">send</button>
+    </form>
+</article>
+</section>
 </section>
 <footer>
     <p>2016 - LaSalle. All Rights Reserved</p>
