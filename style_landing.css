@@ -331,27 +331,49 @@ body .h3_our_services {
     margin-right: 0;
     background-color: brown;
 }
-.location{
-    
-}
 
-.email_us{
-    background-color: rgb(97, 69, 140
-    );
     
+#form {
+    background-image: url("./Material_Entregable1/img/form.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
-.article_email_us{
-    display: flex;
-    background-color: rgb(83, 34, 130);
-    
-    
+
+.contact-form {
+    padding: 20px;
+    width: 300px;
 }
-form{
-    
-    background-color: aqua;
-    margin: 0 auto;
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.contact-form button {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+
 }
 footer{
     background-color: rgb(97, 69, 140
