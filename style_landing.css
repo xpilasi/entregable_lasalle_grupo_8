@@ -8,7 +8,7 @@ body {
   max-width: 1024px;
 }
 
-<<<<<<< HEAD
+
 h1 {
   background-image: url("Material_Entregable1/img/header.jpg");
   background-size: cover;
@@ -19,7 +19,7 @@ h1 {
   color: white;
   font-weight: 500;
   padding-left: 30px;
-=======
+}
 header {
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ h1{
     font-weight: 500;
     padding-left: 30px
     
->>>>>>> 432015b0fe9ad7fccf79d8460bb1b99f875f2fc7
+
 }
 
 section {
@@ -293,7 +293,7 @@ body .h3_our_services {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
+
 .img_portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -316,7 +316,7 @@ body .h3_our_services {
   justify-content: center;
   align-items: center;
   color: white;
-=======
+}
 /* LOCATION */
 
 .Location{
@@ -377,11 +377,11 @@ body .h3_our_services {
     justify-content: center;
     align-items: center;
     color: white;
->>>>>>> 432015b0fe9ad7fccf79d8460bb1b99f875f2fc7
+
 }
 
 .contact-form {
-<<<<<<< HEAD
+
   padding: 20px;
   width: 300px;
 }
@@ -424,14 +424,10 @@ footer p {
   padding-block: 30px;
   color: white;
 }
-=======
-    /* padding: 20px; */
-    /* width: 30%; */
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 0.7fr 1.3fr;
+
+
     
-}
+
 
 .grid_form{
     /* background-color: darkorange; */
@@ -487,4 +483,3 @@ footer p{
     padding-block: 30px;
     color: white;
 }
->>>>>>> 432015b0fe9ad7fccf79d8460bb1b99f875f2fc7
