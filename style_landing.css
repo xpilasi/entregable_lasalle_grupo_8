@@ -335,61 +335,9 @@ body .h3_our_services {
     background-color: brown;
 }
 
-<<<<<<< HEAD
 /*EMAIL US  */
 
 .email_us {
-=======
-
-.Location{
-    text-align: center;
-    margin: 0;
-    color: #000000;
-    display: flex;
-    padding: 20px;
-    background-color: #ffffff; /* Color gris para el fondo */
-    align-items: center; /* Alinear contenido al centro */
-    flex-direction: column; /* Alinear elementos en columna */
-    margin-bottom: 40px; /* Añadir espacio entre el texto y el contenedor gris */
-}
-
-
-/* Estilo para el contenedor del círculo */
-.mapa-en-circulo {
-    width: 450px; /* Ajusta el ancho del contenedor */
-    height: 450px; /* Ajusta la altura del contenedor */
-    border-radius: 50%; /* Crea un círculo perfecto */
-    overflow: hidden; /* Oculta el contenido que exceda el círculo */
-    position: relative; /* Permite posicionar el contenedor */
-    float: left; /* Hace que el contenedor flote a la izquierda */
-    margin-right: 60px; /* Espacio entre el círculo y el texto */
-    margin-top: 90px; /* Ajusta la altura del texto */
-    border: 2px solid black; /* Añade un borde negro delgado */
-}
-
-/* Estilo para el iframe dentro del círculo */
-.mapa-en-circulo iframe {
-    position: absolute; /* Posiciona el iframe dentro del círculo */
-    top: 50%; /* Centra el iframe verticalmente */
-    left: 50%; /* Centra el iframe horizontalmente */
-    transform: translate(-50%, -50%); /* Compensa la posición del centro */
-    width: 100%; /* Ajusta el ancho del iframe al contenedor */
-    height: 100%; /* Ajusta la altura del iframe al contenedor */
-    padding: 20px;
-}
-
-/* Estilo para el texto a la derecha */
-.article {
-    float: left; /* Hace que el artículo flote a la derecha */
-    width: calc(100% - 620px); /* Calcula el ancho restante después de considerar el círculo */
-    text-align: left; /* Justifica el texto a la izquierda */
-    margin-top: 160px; /* Ajusta la altura del texto */
-}
-
-
-    
-#form {
->>>>>>> c1296c26dba7e5c55aa84e4e8c77c5abdaf74565
     background-image: url("./Material_Entregable1/img/form.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -441,12 +389,13 @@ body .h3_our_services {
     
 }
 
-input{
+input{  
     float:right;
     margin-bottom: 10px;
     
 }
 footer{
+    
     background-color: rgb(97, 69, 140
     );
     margin-bottom: 0;
