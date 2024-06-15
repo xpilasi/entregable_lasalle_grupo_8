@@ -9,20 +9,23 @@ body{
    
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('Material_Entregable1/img/header.jpg') no-repeat center -100px / cover;
+    background-size: 100% 500px;
+    height: 360px;
+  }
+
 
 h1{
-    background-image:url('Material_Entregable1/img/header.jpg');
-    background-size:cover;
-    background-position:center;
     height: 300px;
     line-height: 300px;
     margin: 0;
     color: white;
     font-weight: 500;
-    padding-left: 30px;
-    
-   
-    
+    padding-left: 30px
     
 }
 
