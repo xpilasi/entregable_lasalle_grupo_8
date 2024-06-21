@@ -14,52 +14,49 @@
 <body>
     <header>
         <h1>My Bussines WebPage</h1>
-        <!-- <nav class="menu">
-            <ul>
-                <li class="li_menu">Who We are?</li>
-                <li class="li_menu">Services</li>
-                <li class="li_menu">Portfolio</li>
-                <li class="li_menu">Location</li>
-                <li class="li_menu">Email Us</li>
-            </ul>
-        </nav> -->
-
-        <nav class="navbar navbar-expand-lg menu">
-            <div class="container-fluid px-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#">Who We are?</a>
-                        <a class="nav-link" href="#">Services</a>
-                        <a class="nav-link" href="#">Portfolio</a>
-                        <a class="nav-link" href="#">Location</a>
-                        <a class="nav-link" href="#">Email Us</a>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-        </nav>
     </header>
 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#7a629e">
+        <div class="container-md">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Who We are?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Email Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <section class="who_we_are container-fluid px-5">
+    <section class="who_we_are container-md px-5">
         <h2>Who we are?</h2>
         <article>
-            <h3 class="h5">Lorem ipsum dolor, sit amet consectetur lorem Lorem ipsum dolor sit amet consectetur
+            <h3 class="h5 text-center">Lorem ipsum dolor, sit amet consectetur lorem Lorem ipsum dolor sit amet
+                consectetur
                 adipisicing elit. Eveniet dolorum officia amet, saepe itaque vel</h3>
         </article>
 
-        <div class="grid row-gap-0 p-5">
+        <div class="py-5 row">
 
-            <article>
+            <article class="col-12 col-md-6">
 
-                <h3></h3>
-                <h4 class="pb-4">Lorem ipsum</h4>
+                <h3 class="pb-4 text-start">Lorem ipsum</h3>
                 <img class="img_who_we_are" src="Material_Entregable1/img/1.jpg" alt="desc 1">
                 <p class="p_who_we_are">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aperiam ducimus
                     cupiditate minus, porro labore illum voluptatem optio commodi, quis rerum excepturi accusamus
@@ -79,10 +76,9 @@
                     animi dolorum laudantium, porro dicta odit inventore illum deserunt est earum magni ipsum,
                     blanditiis quasi nihil odio harum!</p>
             </article>
-            <section>
+            <section class="col-12 col-md-6">
                 <article">
-                    <h3></h3>
-                    <h4 class="pb-4">Lorem ipsum</h4>
+                    <h3 class="pb-4 text-start">Lorem ipsum</h3>
                     <p class="p_who_we_are">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aperiam
                         ducimus
                         cupiditate minus, porro labore illum voluptatem optio commodi, quis rerum excepturi accusamus
@@ -95,9 +91,9 @@
                             <img class="img_ad" src="Material_Entregable1/img/ad.png" alt="desc 1">
                         </a></aside>
                     </article>
-                    <article>
+                    <article class="pt-4">
                         <h3></h3>
-                        <h4 class="pb-4">Lorem ipsum</h4>
+                        <h4 class="pb-4 text-start">Lorem ipsum</h4>
                         <p class="p_who_we_are">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aperiam
                             ducimus
                             cupiditate minus, porro labore illum voluptatem optio commodi, quis rerum excepturi
@@ -108,19 +104,13 @@
         </div>
 
 
-
-
-
-
-
-
     </section>
 
     <section class="our_services container-md py-4 py-md-5">
         <div class="container-fluid px-5"></div>
         <h2 class="mb-0">Our services</h2>
-        <div class="grid p-5">
-            <article class="art_our_services col">
+        <div class="row row-gap-5 p-5">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C"
                         class="bi bi-cloud-fill" viewBox="0 0 16 16">
                         <path
@@ -134,7 +124,7 @@
                 </div>
 
             </article>
-            <article class="art_our_services col">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C"
                         class="bi bi-file-code-fill" viewBox="0 0 16 16">
                         <path
@@ -148,7 +138,7 @@
                 </div>
 
             </article>
-            <article class="art_our_services col">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C" class="bi bi-wifi"
                         viewBox="0 0 16 16">
                         <path
@@ -164,7 +154,7 @@
                 </div>
 
             </article>
-            <article class="art_our_services col">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C"
                         class="bi bi-globe-americas" viewBox="0 0 16 16">
                         <path
@@ -178,7 +168,7 @@
                 </div>
 
             </article>
-            <article class="art_our_services col">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C"
                         class="bi bi-flag-fill" viewBox="0 0 16 16">
                         <path
@@ -192,7 +182,7 @@
                 </div>
 
             </article>
-            <article class="art_our_services col">
+            <article class="art_our_services col-12  col-sm-6 col-md-6 col-lg-4">
                 <div> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#61458C"
                         class="bi bi-gear-fill" viewBox="0 0 16 16">
                         <path
@@ -200,7 +190,8 @@
                     </svg></div>
                 <div>
                     <h3 class="h3_our_services">Service 6</h3>
-                    <p class="p_our_services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    <p class="p_our_services text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam,
                         laboriosam.
                         Libero, illo. Commodi excepturi odit omnis.</p>
                 </div>
@@ -213,20 +204,29 @@
     </section>
 
     <section class="portfolio">
-        <div class="px-5">
+        <div class="container-md px-5 px-md-5">
             <h2>Portfolio</h2>
-            <article>
-                <h3 class="h5">There are success projects created buy us</h3>
-                <figure class="grid py-5">
-                    <img class="img img_rotate " src="Material_Entregable1/img/2.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/3.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/4.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/5.jpg" alt="desc 1">
-                    <img class="img img_circle " src="Material_Entregable1/img/6.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/7.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/8.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/9.jpg" alt="desc 1">
-                    <img class="img img_rotate " src="Material_Entregable1/img/10.jpg" alt="desc 1">
+            <article class="px-md-5">
+                <h3 class="h5 text-center">There are success projects created by us</h3>
+                <figure class="row row-gap-4 p-5">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/2.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/3.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/4.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/5.jpg"
+                        alt="desc 1">
+                    <img class="img img_circle col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/6.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/7.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/8.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4" src="Material_Entregable1/img/9.jpg"
+                        alt="desc 1">
+                    <img class="img img_rotate col-12 col-md-6 col-lg-4 " src="Material_Entregable1/img/10.jpg"
+                        alt="desc 1">
                 </figure>
 
 
@@ -236,7 +236,7 @@
 
     <section class="py-5">
         <h2>Location</h2>
-        <h3 class="h5">You can find us</h3>
+        <h3 class="h5 text-center">You can find us</h3>
 
 
         <article class="d-flex flex-column flex-md-row justify-content-center align-items-center py-5">
