@@ -450,4 +450,8 @@ footer p {
       margin: 0; 
       padding: 1em; 
   }
+
+  .img_ad{
+    display: none;
+  }
 }
