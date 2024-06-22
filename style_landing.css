@@ -10,13 +10,19 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: url('Material_Entregable1/img/header.jpg') no-repeat center -100px / cover;
-    background-size: 100% 500px;
-    height: 360px;
+    background: url('Material_Entregable1/img/header-mini.png');
+    height: 400px;
+    background-size: 100% 100%;
 }
+
+@media(min-width: 768px) {
+    header {
+        background: url('Material_Entregable1/img/header_image_cropped.jpg');
+        height: 400px;
+        background-size: 100% 100%;
+    }
+}
+
 
 body .navbar {
     background-color: #7a629e !important;
@@ -29,8 +35,8 @@ body .nav-link {
 
 
 h1 {
-    height: 300px;
-    line-height: 300px;
+    /* height: 300px;
+    line-height: 300px; */
     margin: 0;
     color: white;
     font-weight: 500;
@@ -88,6 +94,7 @@ ul {
     border-radius: 10px;
 
 }
+
 
 h2 {
 
