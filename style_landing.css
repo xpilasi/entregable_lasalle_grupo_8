@@ -408,3 +408,11 @@ footer p {
     padding-block: 30px;
     color: white;
 }
+
+@media (max-width: 576px) {
+  footer p {
+      font-size: 12px; /* Reduce el tamaño de fuente en dispositivos móviles */
+      margin: 0; 
+      padding: 1em; 
+  }
+}
