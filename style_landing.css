@@ -89,16 +89,28 @@ ul {
 
 }
 
-h2 {
-
+.h2_style {
+    color: rgb(79, 79, 79);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
-    /* background-color: blue; */
     width: 100%;
     font-size: 40px;
-    ;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-block: 40px;
+
+
+}
+.h2_style_email {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    width: 100%;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
     padding-block: 40px;
@@ -106,12 +118,22 @@ h2 {
 
 }
 
-h3 {
+.h3_style{
+    
+    padding-inline:15%;
+    color: rgb(114, 113, 113);
     font-size: medium;
+    font-weight: 200;
 
 }
 
-h4 {
+.h3_wwa{
+    color: rgb(79, 79, 79);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.h4_stry {
     font-size: 25px;
     font-weight: normal;
     color: rgb(79, 79, 79);
