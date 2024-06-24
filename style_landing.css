@@ -15,13 +15,7 @@ header {
     background-size: 100% 100%;
 }
 
-@media(min-width: 768px) {
-    header {
-        background: url('Material_Entregable1/img/header_image_cropped.jpg');
-        height: 400px;
-        background-size: 100% 100%;
-    }
-}
+
 
 
 body .navbar {
@@ -378,14 +372,7 @@ body .h3_our_services {
     height: 100%;
 }
 
-@media (min-width: 676px) {
-    .gm-container {
-        width: 400px;
-        height: 400px;
-        margin-right: 60px;
-        margin-top: 20px;
-    }
-}
+
 
 
 .mapa-en-circulo iframe {
@@ -455,6 +442,28 @@ footer p {
     color: white;
 }
 
+@media(min-width: 768px) {
+    header {
+        background: url('Material_Entregable1/img/header_image_cropped.jpg');
+        height: 400px;
+        background-size: 100% 100%;
+    }
+
+    
+}
+
+@media (min-width: 676px) {
+    .gm-container {
+        width: 400px;
+        height: 400px;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    .img_ad {
+        display: none;
+    }
+}
+
 @media (max-width: 576px) {
     footer p {
         font-size: 12px;
@@ -462,8 +471,8 @@ footer p {
         margin: 0;
         padding: 1em;
     }
-
     .img_ad {
         display: none;
     }
+    
 }
