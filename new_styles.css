@@ -30,3 +30,20 @@ body .nav-link {
     color: white;
     font-size: 1.1rem;
 }
+
+/* Transiciones al hacer hover en los iconos de Our Services */
+
+.custom-hover {
+    transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.custom-hover:hover {
+    background-color: #7a629e;
+    border-color: #7a629e !important;
+    /* Lo siento por el important  */
+}
+
+.custom-hover:hover svg {
+    fill: white;
+
+}
