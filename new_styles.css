@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    
 }
 
 
@@ -12,6 +13,8 @@ header {
     background: url('Material_Entregable1/img/header-mini.png');
     background-size: 100% 100%;
 }
+
+
 
 @media(min-width: 768px) {
     header {
@@ -48,3 +51,25 @@ body .nav-link {
 
 }
 
+<<<<<<< HEAD
+=======
+
+/* Animaciones portfolio */
+
+
+.img_rotate:hover {
+    transform: rotate(-10deg);
+    transition: all 1s ease-in-out;
+}
+
+.img_circle {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.img_circle:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+>>>>>>> 99f4033a6539a25f7f68b812c10480d67a3804d9
