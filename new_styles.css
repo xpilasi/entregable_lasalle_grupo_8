@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    
 }
 
 
@@ -12,6 +13,8 @@ header {
     background: url('Material_Entregable1/img/header-mini.png');
     background-size: 100% 100%;
 }
+
+
 
 @media(min-width: 768px) {
     header {
@@ -50,6 +53,7 @@ body .nav-link {
     fill: white;
 
 }
+<<<<<<< HEAD
 .email_us {
     background: url('Material_Entregable1/img/form.jpg') no-repeat center center;
     background-size: cover;
@@ -64,3 +68,6 @@ footer a {
     color: white;
     text-decoration: none;
 }
+=======
+
+>>>>>>> 8fdd42530fc395adb3da53f4a087960e57617c21
