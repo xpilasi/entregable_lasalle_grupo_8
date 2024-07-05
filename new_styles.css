@@ -51,22 +51,3 @@ body .nav-link {
 
 }
 
-
-/* Animaciones portfolio */
-
-
-.img_rotate:hover {
-    transform: rotate(-10deg);
-    transition: all 1s ease-in-out;
-}
-
-.img_circle {
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
-}
-
-.img_circle:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    border-radius: 50%;
-}
