@@ -395,13 +395,9 @@ body .h3_our_services {
 /*EMAIL US  */
 
 .email_us {
-    background-image: url("./Material_Entregable1/img/form.jpg");
+    background: url('Material_Entregable1/img/form.jpg') no-repeat center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    height: 400px;
 }
 
 
@@ -450,6 +446,12 @@ footer p {
     }
 
     
+}
+
+@media(min-width: 768px) {
+    .email_us {
+        height: 400px;
+    }
 }
 
 @media (min-width: 676px) {

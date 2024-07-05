@@ -40,6 +40,9 @@ body .nav-link {
     transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 
+/*EMAIL US  */
+
+
 .custom-hover:hover {
     background-color: #7a629e;
     border-color: #7a629e !important;
@@ -50,4 +53,21 @@ body .nav-link {
     fill: white;
 
 }
+<<<<<<< HEAD
 
+=======
+.email_us {
+    background: url('Material_Entregable1/img/form.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background-color: #5e3c90;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+>>>>>>> 8b34f066b8b4dd7793d75a1aff36e6477230a3b8
