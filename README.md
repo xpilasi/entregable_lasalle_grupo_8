@@ -43,4 +43,4 @@ A continuación hay una lista de ejemplos a tener en cuenta para la entrega fina
 
 ## 5. Manejo de Eventos del Usuario
 - Implementar eventos como `onClick`, `onHover`, `onChange`, `onKeyPress` para detectar la interacción del usuario y proporcionar una respuesta inmediata.
-- Cambiar el contenido o estilos de un elemento cuando ocurra un evento (por ejemplo, diferentes estados para un botón, como cambiar​⬤
+- Cambiar el contenido o estilos de un elemento cuando ocurra un evento (por ejemplo, diferentes estados para un botón, como cambiar​)⬤
